@@ -68,7 +68,8 @@ def main():
         "./data/synthetic_emails_1.csv",  # 300 emails
         "./data/synthetic_emails_2.csv",  # 300 emails
         "./data/synthetic_emails_3.csv",  # 300 emails
-        "./data/synthetic_emails_4.csv"  # 100 emails
+        "./data/synthetic_emails_4.csv",  # 100 emails
+        "./data/synthetic_emails.csv"  # Hypothetical file with 1000 emails
     ]
 
     # List of models to test

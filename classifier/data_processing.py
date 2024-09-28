@@ -6,6 +6,7 @@ from nltk.tokenize import word_tokenize
 import re
 
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 nltk.download(['punkt', 'wordnet', 'averaged_perceptron_tagger'])
 
 

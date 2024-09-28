@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  email_classifier:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: email_classifier_app
+    volumes:
+      - .:/app  # mounts current directory to /app in the container (optional, for development purposes)
+    command: ["python", "main.py"]
