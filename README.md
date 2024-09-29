@@ -52,8 +52,10 @@ synthetic_email_classification/
 │   └── email_model.py                # Pydantic model for LLM output
 ├── prompts/
 │   └── prompt_template.py            # Prompt templates for the synthetic generator
+├── email_analysis.ipynb              # Emails dataset analysis
 ├── example.env                       # Environment variables (configurations) - rename to ".env" in prod
 ├── main.py                           # Main entry point of the project
+├── report.pdf                        # Technical report
 ├── requirements.txt                  # Python dependencies
 ├── Dockerfile                        # Docker image setup
 └── docker-compose.yml                # Docker-compose setup
