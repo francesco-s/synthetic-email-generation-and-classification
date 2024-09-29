@@ -14,7 +14,6 @@ def load_or_generate_data(file_paths, generate_if_missing=False, num_emails=1000
 
     Args:
         file_paths (list): List of file paths to load data from.
-        generator (object): The generator to create synthetic data if needed.
         generate_if_missing (bool): Whether to generate data if files are missing.
         num_emails (int): Number of emails to generate if needed.
 

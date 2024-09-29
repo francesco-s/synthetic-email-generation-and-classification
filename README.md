@@ -77,7 +77,7 @@ cd synthetic-email-generation-and-classification
 ```
 
 ### 2. Install Python Dependencies
-You can install the required packages via `requirements.txt`. Ensure you're using Python 3.8+ and have `pip` installed.
+You can install the required packages via `requirements.txt`. Ensure you're using Python 3.10+ and have `pip` installed.
 ```bash
 pip install -r requirements.txt
 ```
